@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos Esportivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sport Mais</h1>
+        <p>Catálogo de Produtos para Loja de Artigos Esportivos</p>
+    </header>
+
+    <main>
+
+        <!-- LISTAS DE CATEGORIAS -->
+        <section>
+            <h2>Categorias de Produtos</h2>
+
+            <!-- Lista não numerada com subcategorias -->
+            <ul>
+                <li>Roupas esportivas
+                    <ul>
+                        <li>Camisetas</li>
+                        <li>Bermudas</li>
+                        <li>Calças esportivas</li>
+                    </ul>
+                </li>
+
+                <li>Calçados
+                    <ul>
+                        <li>Tênis de corrida</li>
+                        <li>Chuteiras</li>
+                        <li>Tênis para academia</li>
+                    </ul>
+                </li>
+
+                <li>Acessórios
+                    <ul>
+                        <li>Garrafas</li>
+                        <li>Luvas</li>
+                        <li>Mochilas</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- LISTA NUMERADA -->
+        <section>
+            <h2>Como escolher seu produto</h2>
+
+            <ol>
+                <li>Escolha a categoria do produto.</li>
+                <li>Compare as características e os preços.</li>
+                <li>Confira se o produto está disponível.</li>
+                <li>Escolha o tamanho ou modelo desejado.</li>
+            </ol>
+        </section>
+
+        <!-- LISTA DE DEFINIÇÃO -->
+        <section>
+            <h2>Termos esportivos</h2>
+
+            <dl>
+                <dt>Dry Fit</dt>
+                <dd>Tecido utilizado em roupas esportivas que ajuda a evaporar o suor.</dd>
+
+                <dt>Amortecimento</dt>
+                <dd>Recurso presente em tênis que ajuda a absorver impactos.</dd>
+
+                <dt>Grip</dt>
+                <dd>Aderência que um calçado ou equipamento oferece durante o uso.</dd>
+            </dl>
+        </section>
+
+        <!-- TABELA DE PRODUTOS -->
+        <section>
+            <h2>Catálogo de Produtos</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Produtos disponíveis</th>
+                        </tr>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Disponibilidade</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Tênis de corrida</td>
+                            <td>Leve e confortável para caminhadas e corridas.</td>
+                            <td>R$ 249,90</td>
+                            <td>Disponível</td>
+                        </tr>
+
+                        <tr>
+                            <td>Camiseta esportiva</td>
+                            <td>Tecido leve para atividades físicas.</td>
+                            <td>R$ 79,90</td>
+                            <td>Disponível</td>
+                        </tr>
+
+                        <tr>
+                            <td>Garrafa térmica</td>
+                            <td>Ajuda a manter a temperatura da bebida.</td>
+                            <td>R$ 59,90</td>
+                            <td>Últimas unidades</td>
+                        </tr>
+
+                        <tr>
+                            <td>Luvas de academia</td>
+                            <td>Proteção e firmeza durante os exercícios.</td>
+                            <td>R$ 39,90</td>
+                            <td>Indisponível</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Preços ilustrativos. Consulte a loja para confirmar o estoque.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <!-- TABELA COM ROWSPAN -->
+        <section>
+            <h2>Produtos por modalidade</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modalidade</th>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Corrida</td>
+                            <td>Tênis de corrida</td>
+                            <td>R$ 249,90</td>
+                        </tr>
+
+                        <tr>
+                            <td>Meia esportiva</td>
+                            <td>R$ 24,90</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">Academia</td>
+                            <td>Luvas de academia</td>
+                            <td>R$ 39,90</td>
+                        </tr>
+
+                        <tr>
+                            <td>Garrafa térmica</td>
+                            <td>R$ 59,90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sport Mais - Catálogo de Artigos Esportivos</p>
+    </footer>
+
+</body>
+</html>

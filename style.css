@@ -1,0 +1,141 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #174b35;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+/* Conteúdo principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 22px;
+    border-radius: 8px;
+}
+
+/* Títulos */
+h2 {
+    color: #174b35;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+li {
+    padding: 3px 0;
+}
+
+/* Lista de definição */
+dl {
+    margin-top: 10px;
+}
+
+dt {
+    color: #174b35;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Tabelas */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+/* Células */
+th, td {
+    border: 1px solid #b9c7bf;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Cabeçalho da tabela */
+thead th {
+    background-color: #174b35;
+    color: white;
+    text-align: center;
+}
+
+/* Cores alternadas nas linhas */
+tbody tr:nth-child(even) {
+    background-color: #edf4ef;
+}
+
+/* Rodapé da tabela */
+tfoot td {
+    background-color: #dce9df;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Rodapé da página */
+footer {
+    background-color: #174b35;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
